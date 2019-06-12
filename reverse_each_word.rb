@@ -7,3 +7,10 @@ def reverse_each_word(sentence1)
   reversed_array.join(" ")
   
 end 
+
+def reverse_each_word(sentence1)
+  array = sentence1.split
+  array.collect do |x|
+  end
+  array.join (" ")
+end 
